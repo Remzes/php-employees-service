@@ -1,0 +1,142 @@
+html, body {
+ background-color: gray;
+ margin: 0 auto;
+}
+ 
+.search-table {
+ border-collapse: collapse;
+ border: 1px yellow solid;
+ box-shadow: 0 0 15px yellow;
+ margin: 0 auto;
+ position: relative;
+ top: 30px;
+ font-size: 22px;
+ margin-bottom: 50px;
+}
+.search-table td {
+  border: 1px yellow solid;
+  border-collapse: collapse;
+  padding: 7px;
+  background-color: yellow;
+  text-align: center;
+ border-bottom: 1px #000 solid;
+}
+.first-tr td{
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 2px red;
+  background-color: transparent;
+  text-align: center;
+  padding: 2px;
+ border: none;
+ border-right: 1px yellow solid;
+ border-left: 1px yellow solid;
+}
+.error {
+ margin: 0;
+ padding: 0;
+ color: red;
+ font-weight: bold;
+}
+.error-two {
+ margin: 0;
+ padding: 0;
+ color: red;
+ font-weight: bold;
+ font-size: 20px;
+ }
+label {
+ display: inline-block;
+ font-family: 'Calibri', sans-serif;
+ font-size: 18px;
+ font-weight: bold;
+ padding-top: 6px;
+ padding-bottom: 6px;
+}
+.wrapper {
+ position: relative;
+ top: 100px;
+ width: 1000px;
+ margin: 0 auto;
+ padding: 0;
+}
+
+.first-form, .second-form {
+ width: 400px;
+ height: 379px;
+ float: left;
+ padding: 20px;
+ border: 2px yellow solid;
+ background-color: yellow;
+ box-shadow: 0 0 10px yellow;
+}
+
+.second-form {
+ float: right;
+}
+
+input[type=text],
+.first-select{
+ width: 200px;
+ background-color: #fff;
+ box-shadow: 0 0 5px black;
+ border: 1px red solid;
+ text-align: center;
+ float: right;
+ height: 30px;
+ }
+
+input[type=submit]{
+ width: 100px;
+ height: 50px;
+ background-color: #000;
+ color: #fff;
+ border: 2px #000 solid;
+ font-weight: bold;
+ font-size: 20px;
+ transition: all ease-in-out 0.2s;
+ margin-top: 10px;
+ position: relative;
+ top: 40px;
+ }
+
+input[type=submit]:hover {
+ border: 2px #fff solid;
+ background-color: #fff;
+ color: #000;
+ position: relative;
+ }
+
+h1 {
+ color: #fff;
+ margin: 0;
+ margin-bottom: 10px;
+ text-shadow: 0 0 2px #000;
+}
+
+.inside-second-form {
+ position: relative;
+ top: 50px;
+}
+
+.second-select {
+  width: 200px;
+ background-color: #fff;
+ box-shadow: 0 0 5px black;
+ border: 1px red solid;
+ text-align: center;
+ float: right;
+ z-index: 500;
+}
+
+.type-div {
+ width: 202px;
+ position: relative;
+ right: 10px;
+ top: 35px;
+ z-index: 1;
+}
+.type-div label {
+ position: relative; 
+ left: 10px;
+}
